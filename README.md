@@ -19,7 +19,7 @@ $ npm install -g vk-to-ig
 $ vk-to-ig COMMAND
 running command...
 $ vk-to-ig (-v|--version|version)
-vk-to-ig/0.0.1 darwin-x64 node-v14.15.4
+vk-to-ig/0.0.2 darwin-x64 node-v14.15.4
 $ vk-to-ig --help [COMMAND]
 USAGE
   $ vk-to-ig COMMAND
@@ -28,28 +28,8 @@ USAGE
 <!-- usagestop -->
 # Commands
 <!-- commands -->
-* [`vk-to-ig hello [FILE]`](#vk-to-ig-hello-file)
 * [`vk-to-ig help [COMMAND]`](#vk-to-ig-help-command)
-
-## `vk-to-ig hello [FILE]`
-
-describe the command here
-
-```
-USAGE
-  $ vk-to-ig hello [FILE]
-
-OPTIONS
-  -f, --force
-  -h, --help       show CLI help
-  -n, --name=name  name to print
-
-EXAMPLE
-  $ vk-to-ig hello
-  hello world from ./src/hello.ts!
-```
-
-_See code: [src/commands/hello.ts](https://github.com/DavyJohnes/vk-to-ig/blob/v0.0.1/src/commands/hello.ts)_
+* [`vk-to-ig photos`](#vk-to-ig-photos)
 
 ## `vk-to-ig help [COMMAND]`
 
@@ -67,4 +47,22 @@ OPTIONS
 ```
 
 _See code: [@oclif/plugin-help](https://github.com/oclif/plugin-help/blob/v3.2.2/src/commands/help.ts)_
+
+## `vk-to-ig photos`
+
+Moves photos from VK to Instagramm
+
+```
+USAGE
+  $ vk-to-ig photos
+
+OPTIONS
+  -h, --help                       show CLI help
+  -t, --type=(wall|profile|saved)  (required) Photos type
+
+EXAMPLE
+  $ vk-to-ig photos --type wall
+```
+
+_See code: [src/commands/photos.ts](https://github.com/DavyJohnes/vk-to-ig/blob/v0.0.2/src/commands/photos.ts)_
 <!-- commandsstop -->
