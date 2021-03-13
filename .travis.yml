@@ -6,3 +6,12 @@ script:
   - ./bin/run --version
   - ./bin/run --help
   - npm run test
+
+deploy:
+  provider: npm
+  email: "dajohnes@gmail.com"
+  api_key:
+    secure: "Al245kR+oGZYrRO6qVyMeMrxNNSbaSwt8EYUYT+Frxsk27B9hUd7D0HgmQ15JDWqwKgvwTHZNArzn0QeiXFahDYRpS69O0fZKWvPaIuuJ/M+3aEdTk5PBIubgXJ8D3vJh8eFn8MVXooAvMVQ3jgPYM5spyNfNfoGnngiQ6XZ3qTmYHuP5XjF0HsgbCZnFYzn6vwZY9mRkzL9UKke/XrZ8MZZk11WxFeoV2K0h8VrM72xr0DZJ+l8CJXklaNbmde+aECbe35WAfCqUtznjoZqU7gYWAt5MG5MIvrQphYC2MKpUBF4RsOwQWj5BpM0ShAD2qXmq3hFktMf4TFIYEidAzeWpv01pUvK8n8EL7CQKQclMjolqT1S2wuIWIW4zLb8nAvQTy+nttku/NNKt6rKqlo3bte+PxI8Cbh7KYsGRyAR7TV9t04Hjzy/KIYtXquSn7y9W5ZpZNR9g+F1Wtfp3K0d/yiZSjpi89KEAegdios8heCQcSrqAWIzV0a5DSZhCRDuq1WvXzzQOuoLImluki9aCbmBJfktUzKfeMkWp3x64sWjOM7lWbb+1Bzl/SMiEWz1zANsIyKWbYdR+l8EEUC22Z3atMnlbEbEbxsXyOWK4ooHIpSW/Qb4PV1bqo5o1BpkWXrY/w7cqJO7Uu6llCNRjvk40WqJg4oEP0YeJBY="
+  on:
+    tags: true
+    branch: master
