@@ -1,7 +1,7 @@
 {
   "name": "vk-to-ig",
   "description": "VK to Instagram migration tool",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "author": "DavyJohnes <dajohnes@gmail.com>",
   "bin": {
     "vk-to-ig": "./bin/run"

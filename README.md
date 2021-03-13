@@ -19,7 +19,7 @@ $ npm install -g vk-to-ig
 $ vk-to-ig COMMAND
 running command...
 $ vk-to-ig (-v|--version|version)
-vk-to-ig/0.0.2 darwin-x64 node-v14.15.4
+vk-to-ig/0.0.3 darwin-x64 node-v14.15.4
 $ vk-to-ig --help [COMMAND]
 USAGE
   $ vk-to-ig COMMAND
@@ -50,7 +50,7 @@ _See code: [@oclif/plugin-help](https://github.com/oclif/plugin-help/blob/v3.2.2
 
 ## `vk-to-ig photos`
 
-Moves photos from VK to Instagramm
+Moves photos from VK to Instagram
 
 ```
 USAGE
@@ -64,5 +64,5 @@ EXAMPLE
   $ vk-to-ig photos --type wall
 ```
 
-_See code: [src/commands/photos.ts](https://github.com/DavyJohnes/vk-to-ig/blob/v0.0.2/src/commands/photos.ts)_
+_See code: [src/commands/photos.ts](https://github.com/DavyJohnes/vk-to-ig/blob/v0.0.3/src/commands/photos.ts)_
 <!-- commandsstop -->
