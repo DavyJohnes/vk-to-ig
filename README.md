@@ -12,6 +12,14 @@ VK to Instagram migration tool
 * [Usage](#usage)
 * [Commands](#commands)
 <!-- tocstop -->
+
+# Before usage
+In order to use this tool you need to obtain some authorization info for VK and Instagram:
+1. VK user id (number). Can be obtained on https://vk.com/settings page.
+2. VK API Key. Can be obtained using [this instruction](https://vk.com/dev/access_token?f=1.%20User%20Token). You need to [create VK App](https://vk.com/editapp?act=create) first, then navigate to `https://oauth.vk.com/authorize?client_id=<app_id>&redirect_uri=http://localhost&response_type=code&scope=100` (`<app_id>` is id of your application), you will be redirected to http://localhost with code in query parameter, copy it. Then navigate to `https://oauth.vk.com/access_token?client_id=<app-id>&client_secret=<app_secret>&redirect_uri=http://localhost&code=<code>`(`<app_id>` is id of your application, `<app_secret>` is secret key of your application (can be found of app settings page), `<code>` is code you got on previous step) and you will receive temporary API token.
+3. Instagram username.
+4. Instagram password.
+
 # Usage
 <!-- usage -->
 ```sh-session
