@@ -1,6 +1,4 @@
 language: node_js
-node_js:
-  - node
 
 cache: npm
 
@@ -8,4 +6,3 @@ script:
   - ./bin/run --version
   - ./bin/run --help
   - npm run test
-
