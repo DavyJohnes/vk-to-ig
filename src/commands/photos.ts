@@ -9,7 +9,7 @@ const IG_MIN_RATIO = 0.8;
 const IG_MAX_RATIO = 1.91;
 
 export default class Photos extends Command {
-    static description = 'Moves photos from VK to Instagramm'
+    static description = 'Moves photos from VK to Instagram'
 
     static examples = [
         '$ vk-to-ig photos --type wall',
