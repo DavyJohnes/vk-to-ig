@@ -9,6 +9,7 @@ VK to Instagram migration tool
 [![License](https://img.shields.io/npm/l/vk-to-ig.svg)](https://github.com/DavyJohnes/vk-to-ig/blob/master/package.json)
 
 <!-- toc -->
+* [Before usage](#before-usage)
 * [Usage](#usage)
 * [Commands](#commands)
 <!-- tocstop -->
@@ -27,7 +28,7 @@ $ npm install -g vk-to-ig
 $ vk-to-ig COMMAND
 running command...
 $ vk-to-ig (-v|--version|version)
-vk-to-ig/0.0.3 darwin-x64 node-v14.15.4
+vk-to-ig/0.0.4 darwin-x64 node-v14.15.4
 $ vk-to-ig --help [COMMAND]
 USAGE
   $ vk-to-ig COMMAND
@@ -72,5 +73,5 @@ EXAMPLE
   $ vk-to-ig photos --type wall
 ```
 
-_See code: [src/commands/photos.ts](https://github.com/DavyJohnes/vk-to-ig/blob/v0.0.3/src/commands/photos.ts)_
+_See code: [src/commands/photos.ts](https://github.com/DavyJohnes/vk-to-ig/blob/v0.0.4/src/commands/photos.ts)_
 <!-- commandsstop -->
